@@ -13,7 +13,7 @@ The manifest covers Windows on x64 (`64bit`) and arm64. It installs `vaultfold.e
 
 ## How this repository is maintained
 
-Do not edit it by hand. Every vaultfold release writes the manifest `bucket/vaultfold.json` here with [GoReleaser](https://goreleaser.com/), from the project's `.goreleaser.yaml`, with the release's download URLs and SHA-256 sums. Pre-releases never update the bucket. Because every release pushes a current manifest, it has no `checkver` or `autoupdate` section. A change made here directly is overwritten by the next release.
+Do not edit it by hand. Every vaultfold release writes the manifest `vaultfold.json` at the root of this repository with [GoReleaser](https://goreleaser.com/), from the project's `.goreleaser.yaml`, with the release's download URLs and SHA-256 sums. Pre-releases never update the bucket. Because every release pushes a current manifest, it has no `checkver` or `autoupdate` section. A change made here directly is overwritten by the next release.
 
 Until the first release this repository holds only this README.
 
